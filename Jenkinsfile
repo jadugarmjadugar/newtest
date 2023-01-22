@@ -11,8 +11,8 @@ pipeline {
         stage("deploy") {
             steps {
                 script {
-                    docker build -t hello-world .
-            
+                   sh ' docker build -t hello-world .'
+                 }
             }
         }
     }   
