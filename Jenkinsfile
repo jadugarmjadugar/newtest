@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     docker build -t hello-world .
-                }
+            
             }
         }
     }   
